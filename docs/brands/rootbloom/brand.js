@@ -53,6 +53,10 @@ window.BRAND = {
 
   presenter: null,                      // Talking Avatar: each stylist uploads their own photo
 
+  // Simple mode starter tools: client texts (chat), salon flyers and social graphics (image), reels (video).
+  simpleStudios: ["chat", "image", "video"],
+  defaultMode: "simple",
+
   studios: {
     chat: {
       placeholder: "Write a warm follow-up text to a client after her first color appointment…",

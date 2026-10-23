@@ -31,6 +31,7 @@ R:\Documents\Claude\Projects\Bizconnect\
 | Job | How |
 |---|---|
 | Change wording, example prompts, guide lines | Edit `docs\brands\rootbloom\brand.js` (fields explained in `..\..\bizconnect-ai-studio\tools\brand-template\brand.js`). `studios.<id>.examples` = the example chips; `studios.hide: ["music"]` removes a studio |
+| Change the 3 tools Simple mode shows | `simpleStudios` in `brand.js` (now chat, image, video). The "All 10 tools" switch shows the rest |
 | Change colors or fonts | Edit `docs\brands\rootbloom\brand.css` |
 | See it before publishing | `python -m http.server 8751 --directory docs` → http://localhost:8751 |
 | Publish | `git add docs` → `git commit -m "…"` → `git push` (GitHub Pages updates in 1–2 min; hard-refresh with Ctrl+Shift+R) |
