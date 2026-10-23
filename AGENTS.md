@@ -7,8 +7,8 @@ The studio gives Root & Bloom's stylists and salon owners ten easy AI tools in R
 
 **Status:** preview prototype built 2026-10-23 for Root & Bloom to look at. Expect adjustments after their feedback. It is **not yet an official Root & Bloom service**: the footer says so, search engines are told not to index it (`noindex: true` in brand.js), and the sign-in box says who stores members' data. Keep it that way until Root & Bloom approves.
 
-- **Live:** https://dshenterpriseinc.github.io/rootbloom-ai-studio/
-- **Repo:** `dshenterpriseinc/rootbloom-ai-studio` (GitHub Pages from `main`, folder `/docs`)
+- **Live:** https://bizconnectcoalition.github.io/rootbloom-ai-studio/
+- **Repo:** `bizconnectcoalition/rootbloom-ai-studio` (GitHub Pages from `main`, folder `/docs`)
 
 ## It is part of the BizConnect AI Studio family
 This site is the **shared AI Studio core** plus **Root & Bloom's brand**. The core is maintained in one place:
