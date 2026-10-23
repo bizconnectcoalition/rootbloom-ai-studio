@@ -5,7 +5,7 @@ A custom-branded **AI studio for Root & Bloom Salon Source** (https://rootblooms
 
 The studio gives Root & Bloom's stylists and salon owners ten easy AI tools in Root & Bloom's look: chat, images (salon flyers, product shots), short videos (reels), voiceovers (phone greetings, promos), talking-avatar videos (from the stylist's own photo), music, slide decks (education nights), translation, outreach packs and brand kits. The example prompts are written for salons.
 
-**Status:** preview prototype built 2026-10-23 for Root & Bloom to look at. Expect adjustments after their feedback.
+**Status:** preview prototype built 2026-10-23 for Root & Bloom to look at. Expect adjustments after their feedback. It is **not yet an official Root & Bloom service**: the footer says so, search engines are told not to index it (`noindex: true` in brand.js), and the sign-in box says who stores members' data. Keep it that way until Root & Bloom approves.
 
 - **Live:** https://dshenterpriseinc.github.io/rootbloom-ai-studio/
 - **Repo:** `dshenterpriseinc/rootbloom-ai-studio` (GitHub Pages from `main`, folder `/docs`)
@@ -27,6 +27,16 @@ R:\Documents\Claude\Projects\Bizconnect\
         CORE_VERSION.txt        which core commit was last copied in
 ```
 
+## Common jobs
+| Job | How |
+|---|---|
+| Change wording, example prompts, guide lines | Edit `docs\brands\rootbloom\brand.js` (fields explained in `..\..\bizconnect-ai-studio\tools\brand-template\brand.js`). `studios.<id>.examples` = the example chips; `studios.hide: ["music"]` removes a studio |
+| Change colors or fonts | Edit `docs\brands\rootbloom\brand.css` |
+| See it before publishing | `python -m http.server 8751 --directory docs` → http://localhost:8751 |
+| Publish | `git add docs` → `git commit -m "…"` → `git push` (GitHub Pages updates in 1–2 min; hard-refresh with Ctrl+Shift+R) |
+| Pick up core improvements | Run the sync command in rule 1, preview, then publish. `sync-client.ps1 -Check` (run from the core) says whether this client is behind |
+| Change Bloom's concierge voice (back end) | The `rootbloom` line in `BRANDS` in `..\..\bizconnect-ai-studio\worker\src\index.js` → deploy the Worker (affects every studio; see the core's WHITE_LABEL.md step 4) |
+
 ## Rules
 1. **Edit only `docs\brands\rootbloom\`** (and these .md files). Everything else in `docs\` is overwritten by the core's `tools\sync-client.ps1`. For a change every studio needs, edit the core in `bizconnect-ai-studio\`, then re-sync:
    ```powershell
@@ -36,6 +46,9 @@ R:\Documents\Claude\Projects\Bizconnect\
 2. **Public repo:** no secrets, no private notes about Root & Bloom's people or business.
 3. The back end is the **shared BizConnect Worker** (`https://bizconnect-ai-studio.virtualecommerceinc.workers.dev`). Root & Bloom's concierge voice ("Bloom") is the `rootbloom` entry in `BRANDS` in `bizconnect-ai-studio\worker\src\index.js`. For now the passcode, daily spending cap and wallets are shared with the BizConnect studio (see the core's `project-docs\DECISIONS.md`, D-004).
 4. Push only when Dan asks.
+5. Never hand-edit core-owned files in `docs\` (the sync tool refuses to overwrite hand edits and lists them; move such changes into the core).
+
+Private context (people, naming, which accounts own what) is in `..\..\bizconnect-ai-studio\PRIVATE_NOTES.md` (local disk only, not in any repo).
 
 ## Brand notes (from their website, 2026-10-23)
 | Item | Value |

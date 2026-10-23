@@ -1,0 +1,12 @@
+1255FA28EE6323F6 studio.html
+38E4DC46774DAB4E assets\studios.js
+45FF185D010D417D account.html
+49A27BA8DE2A260D assets\mic.js
+5F32FEFE9978DF6B assets\app.js
+7B85EE07256EC016 brand.js
+893DFBE05E04A1A8 assets\account.js
+989C3956AACDCAB2 assets\controls.js
+AF443FC244F24D82 assets\studio-page.js
+C847A0E83B8840B7 assets\app.css
+E5A6B23334983F5B assets\home.js
+F31CD687F16A8733 index.html
