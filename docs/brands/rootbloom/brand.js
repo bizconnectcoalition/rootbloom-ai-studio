@@ -53,6 +53,57 @@ window.BRAND = {
 
   presenter: null,                      // Talking Avatar: each stylist uploads their own photo
 
+  // Hover examples on the studio cards, salon versions. Studios not listed here use the core
+  // (bakery) examples. Media paths are relative to docs/.
+  previews: {
+    chat: {
+      kind: "chat",
+      prompt: "Write a friendly text reminding clients it's time to book their fall color.",
+      reply: "Hi love! 🍂 Fall is the perfect time to warm up your color: think copper, honey and soft caramel. Our October calendar is filling fast, so tap here to grab your spot. Can't wait to see you in the chair!",
+    },
+    image: {
+      kind: "image",
+      prompt: "Elegant photo for a salon's fall color special: plant-filled boutique salon, glossy copper-and-honey waves, golden afternoon light.",
+      src: "brands/rootbloom/previews/image.webp",
+      alt: "AI-made photo of a client with glossy copper waves in a bright, plant-filled salon",
+    },
+    deck: {
+      kind: "deck",
+      prompt: "A 10-minute education-night talk for stylists on growing a loyal clientele.",
+      slides: [
+        { title: "Growing a loyal clientele", bullets: ["Why rebooking beats discounting", "Three habits of booked-solid stylists"] },
+        { title: "Book the next visit in the chair", bullets: ["Suggest a date before they leave", "Send a friendly reminder text"] },
+        { title: "Make referrals easy", bullets: ["Thank-you note for every referral", "A small gift on their next visit"] },
+      ],
+      detail: "7 slides + speaker notes · downloads as PowerPoint",
+    },
+    translate: {
+      kind: "translate",
+      prompt: "Please arrive 10 minutes early for your appointment. Changes need 24 hours' notice.",
+      language: "Spanish",
+      result: "Por favor, llegue 10 minutos antes de su cita. Los cambios requieren 24 horas de aviso.",
+    },
+    outreach: {
+      kind: "outreach",
+      prompt: "goldenhourbridal.com",
+      promptLabel: "You paste a partner's website",
+      pieces: [
+        { title: "Intro email", text: "Subject: Hair for your fall brides? Hi Maya, I loved the barn wedding on your site. I'm a stylist nearby and would love to be on your recommended list…" },
+        { title: "Instagram DM", text: "Your September wedding photos are gorgeous! I do bridal hair just down the road. Could I send you my look book?" },
+      ],
+      detail: "Also writes a text, a call opener and a follow-up",
+    },
+    brand: {
+      kind: "brand",
+      prompt: "A calm, nature-inspired hair studio for lived-in color and curls.",
+      name: "Willow & Wave",
+      tagline: "Rooted in care. Styled to flow.",
+      colors: ["#6E8B6B", "#C9A46A", "#F4EFE6", "#2F3B2F"],
+      logo: "brands/rootbloom/previews/logo.webp",
+      detail: "Plus fonts, bios and taglines",
+    },
+  },
+
   // Simple mode starter tools: client texts (chat), salon flyers and social graphics (image), reels (video).
   simpleStudios: ["chat", "image", "video"],
   defaultMode: "simple",
