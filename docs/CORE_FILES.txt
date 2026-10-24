@@ -1,17 +1,18 @@
-00EC966F6214535A assets\home.js
 1255FA28EE6323F6 studio.html
 1D0B7F57DF0929DB assets\previews\video.webp
 1EF388296B5D6025 assets\previews\logo.webp
-38E4DC46774DAB4E assets\studios.js
+2F599A393C351B4C assets\studio-page.js
 49A27BA8DE2A260D assets\mic.js
 4CF3A1775D3C1251 assets\previews.js
 4E9D7AEF2587AC59 assets\preview.js
+5D4CD7916B1C842B assets\app.css
 60FAAD1D1BA4E9A8 assets\previews\avatar.mp4
 6FE96072A3C5629F assets\previews\image.webp
+765C4EA8591F655C assets\studios.js
 766123D83CECC6B1 assets\controls.js
+7855D8CA43260DAB assets\app.js
 7B85EE07256EC016 brand.js
-80DEC97B63F19BF1 assets\app.css
-9A388A8F94C35CD6 assets\app.js
+81DCA8DB11EB97CA assets\home.js
 9EADCF5F697E5C33 assets\account.js
 A8D95946D15D38C0 assets\previews\voice.mp3
 AAD295BFDF2FE263 assets\previews\video.mp4
@@ -19,4 +20,3 @@ AD39E553D005577A assets\previews\music.mp3
 B5DAB0B8438E9BC4 index.html
 C512956BAEE2F382 assets\previews\avatar.webp
 CBCAB1C1B8ED4BE9 account.html
-E005769E05ECE8DB assets\studio-page.js

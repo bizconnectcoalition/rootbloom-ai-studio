@@ -22,6 +22,7 @@
   --card:linear-gradient(165deg,#36493A 0%,#2E3F32 55%,#29392C 100%);
   --card-border:rgba(238,221,191,.16); --card-border-hover:rgba(var(--accent-hi-rgb),.55);
   --tier-fast-text:#B0E5BB;
+  --ico-sat:.5; --ico-l:1.08;           /* studio icon tiles: soft, dusty salon tones, slightly lifted */
   --card-muted:#C3CCBF;                 /* secondary text on cards */
   --shadow-card:inset 0 1px 0 rgba(255,255,255,.08),0 1px 2px rgba(0,0,0,.45),0 8px 18px -6px rgba(0,0,0,.55),0 22px 44px -22px rgba(0,0,0,.65);
   --shadow-card-hover:inset 0 1px 0 rgba(255,255,255,.11),0 2px 4px rgba(0,0,0,.45),0 16px 30px -8px rgba(0,0,0,.6),0 34px 60px -26px rgba(0,0,0,.7);
