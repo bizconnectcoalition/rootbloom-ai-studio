@@ -3,10 +3,10 @@
 38E4DC46774DAB4E assets\studios.js
 49A27BA8DE2A260D assets\mic.js
 5CEDCA461FB2367E assets\home.js
+766123D83CECC6B1 assets\controls.js
 7B85EE07256EC016 brand.js
-989C3956AACDCAB2 assets\controls.js
 9A388A8F94C35CD6 assets\app.js
 9EADCF5F697E5C33 assets\account.js
 CBCAB1C1B8ED4BE9 account.html
-CD766917A7864EBF assets\app.css
-EFE6D7D2FC4C2073 assets\studio-page.js
+E005769E05ECE8DB assets\studio-page.js
+FBA7BB1FEEC1A740 assets\app.css
