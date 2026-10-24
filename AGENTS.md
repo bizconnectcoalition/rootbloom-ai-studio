@@ -47,7 +47,7 @@ R:\Documents\Claude\Projects\Bizconnect\
 2. **Public repo:** no secrets, no private notes about Root & Bloom's people or business.
 3. The back end is the **shared BizConnect Worker** (`https://bizconnect-ai-studio.virtualecommerceinc.workers.dev`). Root & Bloom's concierge voice ("Bloom") is the `rootbloom` entry in `BRANDS` in `bizconnect-ai-studio\worker\src\index.js`. For now the passcode, daily spending cap and wallets are shared with the BizConnect studio (see the core's `project-docs\DECISIONS.md`, D-004).
 4. Push only when Dan asks.
-5. Never hand-edit core-owned files in `docs\` (the sync tool refuses to overwrite hand edits and lists them; move such changes into the core).
+5. This studio started from the BizConnect template and may diverge. To keep a customised core file, list it in `CLIENT_OWNED.txt` in this folder (see the core's WHITE_LABEL.md, *Starting point, not a cage*); otherwise never hand-edit core-owned files in `docs\` (the sync tool refuses to overwrite hand edits and lists them; move such changes into the core).
 
 Private context (people, naming, which accounts own what) is in `..\..\bizconnect-ai-studio\PRIVATE_NOTES.md` (local disk only, not in any repo).
 
@@ -64,6 +64,5 @@ The studio uses a **dark "evening garden" theme**: forest-green canvas, cream te
 
 ## Open items
 - Root & Bloom's feedback on wording, colors and which studios matter most (`studios.hide` can remove any).
-- Guide "Bloom" is a round sunflower avatar. A full-body character (like BizConnect's Allie) would need character art.
 - Their own domain (e.g. studio.rootbloomsalonsource.com) → a `CNAME` file in `docs\` plus a DNS record.
 - Their permission to use the logo publicly before it's promoted.

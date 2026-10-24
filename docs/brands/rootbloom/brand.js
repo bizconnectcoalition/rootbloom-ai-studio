@@ -40,18 +40,25 @@ window.BRAND = {
     name: "Bloom",
     role: "Salon studio guide",
     label: "your Root & Bloom studio guide",
-    avatar: "img/guide-avatar.svg",
-    poses: [],                          // no character art yet: compact round sunflower helper
+    avatar: "img/guide-avatar.jpg",     // round photo on the "Ask Bloom" tab
+    poses: [                            // full-body cut-outs (made in Gemini, see the core's project-docs/PREVIEW_MEDIA.md)
+      { src: "img/guide/bloom-pose-wave.png", alt: "Bloom waving hello" },
+      { src: "img/guide/bloom-pose-point.png", alt: "Bloom pointing something out" },
+      { src: "img/guide/bloom-pose-welcome.png", alt: "Bloom welcoming you with open arms" },
+      { src: "img/guide/bloom-pose-thumbsup.png", alt: "Bloom giving a thumbs up" },
+      { src: "img/guide/bloom-pose-armscrossed.png", alt: "Bloom standing confidently" },
+      { src: "img/guide/bloom-pose-brush.png", alt: "Bloom holding a brush and comb, ready to help" },
+    ],
     pages: {
       "index.html": { pose: 0, lines: ["Hi, I'm Bloom! 🌻 Tell me what you want to make: a client text, a flyer, a reel…", "Tip: tap the 🎤 in any box and just talk. I'll type it for you."] },
-      "studio.html": { pose: 0, lines: ["Try an example prompt, then make it yours. That's the fastest way to learn.", "Want richer results? Switch to a Premium engine on the left."] },
-      "account.html": { pose: 0, lines: ["Share your link with fellow stylists and earn on every credit pack they buy.", "Credits never expire, and there's no monthly fee."] },
+      "studio.html": { pose: 1, lines: ["Try an example prompt, then make it yours. That's the fastest way to learn.", "Want richer results? Pick a 'Best' AI model in the options."] },
+      "account.html": { pose: 3, lines: ["Share your link with fellow stylists and earn on every credit pack they buy.", "Credits never expire, and there's no monthly fee."] },
     },
     greeting: "Hi{first}! I'm Bloom. Tell me what you'd like to make for your salon (a client text, a flyer, a reel, anything) and I'll point you to the right studio.",
     chips: ["Which tool should I use?", "Write a rebooking text", "Make a flyer for my salon event", "Create a short salon reel"],
   },
 
-  presenter: null,                      // Talking Avatar: each stylist uploads their own photo
+  presenter: { name: "Bloom", thumb: "img/presenter.jpg" }, // Talking Avatar default face (same photo is worker/public/bloom-presenter.jpg)
 
   // Hover examples on the studio cards, salon versions. Studios not listed here use the core
   // (bakery) examples. Media paths are relative to docs/.
@@ -85,7 +92,7 @@ window.BRAND = {
       sound: true,
       prompt: "Hi! Fall color appointments are filling up fast. Book your spot this week!",
       promptLabel: "You type what they should say",
-      detail: "Presenter: a photo of you",
+      detail: "Presenter: Bloom, or a photo of you",
       src: "brands/rootbloom/previews/avatar.mp4",
       poster: "brands/rootbloom/previews/avatar.webp",
     },
@@ -156,7 +163,7 @@ window.BRAND = {
       examples: ["Thanks for calling! We're with a guest right now. Leave your name and number and we'll call you back today.", "This month only: book any color service and get a free deep-conditioning treatment.", "Welcome to our education series, where stylists grow together."],
     },
     avatar: {
-      blurb: "Type a script and your photo speaks it on video. Great for service intros, product tips and booking reminders. No camera, lighting or retakes needed.",
+      blurb: "Type a script and Bloom (or a photo of you) speaks it on video. Great for service intros, product tips and booking reminders. No camera, lighting or retakes needed.",
       placeholder: "Hi, I'm your stylist! Here are three ways to keep your color glossy between visits…",
       examples: ["Hi, I'm your stylist! Here are three ways to keep your color glossy between visits.", "Ask me about our new color line at your next visit. I'd love to find your perfect shade!", "Holiday appointments fill fast. Book your spot this week!"],
     },
