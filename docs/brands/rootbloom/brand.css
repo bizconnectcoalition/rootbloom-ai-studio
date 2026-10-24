@@ -11,14 +11,20 @@
   /* accent (buttons, highlights, borders) */
   --accent:#BF9A67; --accent-hi:#DABD90; --accent-glow:#EEDDBF; --accent-deep:#9A7A4E;
   /* text */
-  --text:#F4F0E8; --text-dim:#DDD7CA; --slate:#AEB8AA; --slate-dim:#7F8D7E;
+  --text:#F4F0E8; --text-dim:#DDD7CA; --slate:#B8C2B4; --slate-dim:#7F8D7E;
   --green:#8CC79A; --red:#E0776B;
   /* the same colours as r,g,b triplets, for translucent tints */
-  --accent-rgb:191,154,103; --accent-hi-rgb:218,189,144; --text-rgb:244,240,232; --slate-rgb:174,184,170;
+  --accent-rgb:191,154,103; --accent-hi-rgb:218,189,144; --text-rgb:244,240,232; --slate-rgb:184,194,180;
   --bg-950-rgb:20,29,22; --bg-700-rgb:43,58,45; --bg-600-rgb:62,85,65; --bg-raise-rgb:38,53,41;
   --ink-rgb:15,22,16; --overlay-rgb:8,12,9;
   --line:rgba(191,154,103,.26); --line-soft:rgba(174,184,170,.15);
-  --card:linear-gradient(165deg,rgba(43,58,45,.74),rgba(20,29,22,.93));
+  /* raised surfaces (cards, panels): clearly lighter than the page, crisp edge, layered shadow */
+  --card:linear-gradient(165deg,#36493A 0%,#2E3F32 55%,#29392C 100%);
+  --card-border:rgba(238,221,191,.16); --card-border-hover:rgba(var(--accent-hi-rgb),.55);
+  --tier-fast-text:#B0E5BB;
+  --card-muted:#C3CCBF;                 /* secondary text on cards */
+  --shadow-card:inset 0 1px 0 rgba(255,255,255,.08),0 1px 2px rgba(0,0,0,.45),0 8px 18px -6px rgba(0,0,0,.55),0 22px 44px -22px rgba(0,0,0,.65);
+  --shadow-card-hover:inset 0 1px 0 rgba(255,255,255,.11),0 2px 4px rgba(0,0,0,.45),0 16px 30px -8px rgba(0,0,0,.6),0 34px 60px -26px rgba(0,0,0,.7);
   /* fonts */
   --serif:'Cormorant',Georgia,serif; --serif-2:'Cormorant',Georgia,serif;
   --sans:'Jost',system-ui,sans-serif; --mono:'Jost',system-ui,sans-serif;

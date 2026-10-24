@@ -10,6 +10,7 @@
 6FE96072A3C5629F assets\previews\image.webp
 766123D83CECC6B1 assets\controls.js
 7B85EE07256EC016 brand.js
+80DEC97B63F19BF1 assets\app.css
 9A388A8F94C35CD6 assets\app.js
 9EADCF5F697E5C33 assets\account.js
 A8D95946D15D38C0 assets\previews\voice.mp3
@@ -19,4 +20,3 @@ B5DAB0B8438E9BC4 index.html
 C512956BAEE2F382 assets\previews\avatar.webp
 CBCAB1C1B8ED4BE9 account.html
 E005769E05ECE8DB assets\studio-page.js
-F67222AB442A0B5C assets\app.css
