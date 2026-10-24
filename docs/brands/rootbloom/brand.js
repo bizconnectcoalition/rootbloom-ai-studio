@@ -92,14 +92,14 @@ window.BRAND = {
       sound: true,
       prompt: "Hi! Fall color appointments are filling up fast. Book your spot this week!",
       promptLabel: "You type what they should say",
-      detail: "Presenter: Bloom, or a photo of you",
+      detail: "Presenter here: a photo of a stylist. Or let Bloom present it",
       src: "brands/rootbloom/previews/avatar.mp4",
       poster: "brands/rootbloom/previews/avatar.webp",
     },
     music: {
       kind: "audio",
       prompt: "Warm, cozy acoustic background music for a salon reel. No vocals.",
-      detail: "Genre: acoustic · Mood: relaxed and upbeat",
+      detail: "Genre: acoustic · Mood: warm and upbeat",
       src: "assets/previews/music.mp3",
     },
     deck: {
@@ -165,7 +165,7 @@ window.BRAND = {
     avatar: {
       blurb: "Type a script and Bloom (or a photo of you) speaks it on video. Great for service intros, product tips and booking reminders. No camera, lighting or retakes needed.",
       placeholder: "Hi, I'm your stylist! Here are three ways to keep your color glossy between visits…",
-      examples: ["Hi, I'm your stylist! Here are three ways to keep your color glossy between visits.", "Ask me about our new color line at your next visit. I'd love to find your perfect shade!", "Holiday appointments fill fast. Book your spot this week!"],
+      examples: ["Hi, I'm Bloom from Root & Bloom! Let me show you three ways to keep your color glossy between visits.", "Hi, I'm your stylist! Here are three ways to keep your color glossy between visits.", "Ask me about our new color line at your next visit. I'd love to find your perfect shade!", "Holiday appointments fill fast. Book your spot this week!"],
     },
     music: {
       placeholder: "Calm acoustic background music for a salon reel…",

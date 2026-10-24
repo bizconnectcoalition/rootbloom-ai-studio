@@ -22,7 +22,9 @@ R:\Documents\Claude\Projects\Bizconnect\
         brands\rootbloom\       ← Root & Bloom's own files: EDIT THESE
           brand.js              names, wording, example prompts, the guide "Bloom"
           brand.css             colors and fonts
-          img\                  sunflower emblem (cream, for the dark header), crest, favicon, guide avatar
+          img\                  sunflower emblem (cream, for the dark header), crest, favicon,
+                              guide\ (Bloom's 6 full-body poses), guide-avatar.jpg, presenter.jpg
+          previews\             salon media for the hover examples
         brand.js, *.html, assets\   ← copied from the core: DO NOT EDIT HERE
         CORE_VERSION.txt        which core commit was last copied in
 ```
