@@ -18,9 +18,9 @@ window.BRAND = {
   pageTitle: "Root & Bloom AI Studio — Every AI tool your salon needs",
   description: "Client texts, social posts, salon flyers, service videos, voiceovers and more, made with the world's leading AI models in one simple studio for Root & Bloom stylists and salon owners.",
   hero: {
-    eyebrow: "Root & Bloom · AI Studio",
-    titleHtml: "Every AI tool your salon needs.<br><em>Rooted in one simple studio.</em>",
-    lead: "Write client texts, plan your posts, design salon flyers and make service videos without learning a dozen AI apps. Describe what you want in plain words and the studio does the rest.",
+    eyebrow: "",                          // the logo already names the studio
+    titleHtml: "Every AI tool your salon needs, <em>rooted in one simple studio.</em>",
+    lead: "Client texts, salon flyers, service videos and more. Just describe it. No subscription: pay only for what you create.",
   },
   footer: "Preview prototype prepared for Root & Bloom Salon Source · not yet an official Root & Bloom service",
   noindex: true,                        // keep search engines away until Root & Bloom approves it
