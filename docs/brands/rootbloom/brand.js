@@ -36,25 +36,28 @@ window.BRAND = {
   fileName: "root-and-bloom",
   exportColors: { bg: "1A251C", accent: "BF9A67", title: "F4F0E8", body: "DDD7CA" },
 
+  // The guide is a cartoon of founder Amber, used with her permission (consent kept privately, see AGENTS.md).
+  // She always presents as an AI guide, and her lines stay advice-only: no prices, earnings or promises in her voice.
+  // "Amber" is also the rootbloom guide in the Worker's BRANDS (with cast: { Amber: … } so it knows she's a real person).
+  // Bloom's art (img/guide/bloom-pose-*.png, guide-avatar.jpg) is kept for guide.cast if real staff are added later.
   guide: {
-    name: "Bloom",
-    role: "Salon studio guide",
-    label: "your Root & Bloom studio guide",
-    avatar: "img/guide-avatar.jpg",     // round photo on the "Ask Bloom" tab
-    poses: [                            // full-body cut-outs (made in Gemini, see the core's project-docs/PREVIEW_MEDIA.md)
-      { src: "img/guide/bloom-pose-wave.png", alt: "Bloom waving hello" },
-      { src: "img/guide/bloom-pose-point.png", alt: "Bloom pointing something out" },
-      { src: "img/guide/bloom-pose-welcome.png", alt: "Bloom welcoming you with open arms" },
-      { src: "img/guide/bloom-pose-thumbsup.png", alt: "Bloom giving a thumbs up" },
-      { src: "img/guide/bloom-pose-armscrossed.png", alt: "Bloom standing confidently" },
-      { src: "img/guide/bloom-pose-brush.png", alt: "Bloom holding a brush and comb, ready to help" },
+    name: "Amber",
+    role: "AI guide · modeled on our founder",
+    label: "an AI studio guide modeled on Root & Bloom's founder",
+    avatar: "img/amber-avatar.jpg",     // round photo on the "Ask Amber" tab
+    poses: [                            // full-body cut-outs that cross-fade (made in Gemini, see the core's project-docs/PREVIEW_MEDIA.md)
+      { src: "img/guide/amber-pose-wave.png", alt: "Cartoon of Amber waving hello" },
+      { src: "img/guide/amber-pose-point.png", alt: "Cartoon of Amber pointing something out" },
+      { src: "img/guide/amber-pose-welcome.png", alt: "Cartoon of Amber welcoming you with open arms" },
+      { src: "img/guide/amber-pose-thumbsup.png", alt: "Cartoon of Amber giving a thumbs up" },
+      { src: "img/guide/amber-pose-armscrossed.png", alt: "Cartoon of Amber standing confidently" },
     ],
     pages: {
-      "index.html": { pose: 0, lines: ["Hi, I'm Bloom! 🌻 Tell me what you want to make: a client text, a flyer, a reel…", "Tip: tap the 🎤 in any box and just talk. I'll type it for you."] },
-      "studio.html": { pose: 1, lines: ["Try an example prompt, then make it yours. That's the fastest way to learn.", "Want richer results? Pick a 'Best' AI model in the options."] },
-      "account.html": { pose: 3, lines: ["Share your link with fellow stylists and earn on every credit pack they buy.", "Credits never expire, and there's no monthly fee."] },
+      "index.html": { pose: 0, lines: ["Hi, I'm Amber (well, my AI twin) 🌱 What are we growing today?", "Busy behind the chair? Tap the 🎤 and just talk. I'll type it up."] },
+      "studio.html": { pose: 1, lines: ["Start with an example, then make it sound like you. Clients know your voice.", "Launch or big event? Pick a 'Best' model for richer results."] },
+      "account.html": { pose: 3, lines: ["Know a stylist who'd love this? Share your link. We grow better together.", "Your credits and referral link live here, whenever you need them."] },
     },
-    greeting: "Hi{first}! I'm Bloom. Tell me what you'd like to make for your salon (a client text, a flyer, a reel, anything) and I'll point you to the right studio.",
+    greeting: "Hi{first}! I'm AI Amber, a digital guide modeled on Root & Bloom's founder (the real Amber doesn't see these chats). What are we making for your salon today? I'll point you to the right studio.",
     chips: ["Which tool should I use?", "Write a rebooking text", "Make a flyer for my salon event", "Create a short salon reel"],
   },
 

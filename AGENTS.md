@@ -64,6 +64,11 @@ Private context (people, naming, which accounts own what) is in `..\..\bizconnec
 
 The studio uses a **dark "evening garden" theme**: forest-green canvas, cream text, tan accents. The shared design is dark-only today. A light version closer to their website needs core work (listed in the core's `project-docs\VISION.md`).
 
+## The guide is Amber
+Since 2026-10-29 the floating guide is **Amber**, a cartoon of Root & Bloom's founder, used with her permission (5 poses: `img\guide\amber-pose-*.png`, round photo `img\amber-avatar.jpg`; how they were made: the core's `project-docs\PREVIEW_MEDIA.md`). She always presents as an AI guide and never makes promises in Amber's name. In the Worker's `BRANDS`, the `rootbloom` entry has `guide: "Amber"` plus `cast: { Amber: … }`, which adds the "you are an AI, not the real Amber" rules.
+The earlier fictional guide **Bloom** is kept (`img\guide\bloom-pose-*.png`, `img\guide-avatar.jpg`, and the Talking Avatar presenter `img\presenter.jpg`). Dan's rule: guides only take turns (`guide.cast`) when real staff likenesses are added; never rotate Amber with a fictional character.
+**To remove Amber:** put Bloom back as `guide` in `brand.js` (name, avatar `img/guide-avatar.jpg`, the bloom poses, her own lines), set the Worker's `rootbloom` guide back to `"Bloom"` and drop `cast`, deploy the Worker, publish this repo, delete her images.
+
 ## Open items
 - Root & Bloom's feedback on wording, colors and which studios matter most (`studios.hide` can remove any).
 - Their own domain (e.g. studio.rootbloomsalonsource.com) → a `CNAME` file in `docs\` plus a DNS record.

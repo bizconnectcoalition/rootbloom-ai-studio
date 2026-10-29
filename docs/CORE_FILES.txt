@@ -3,6 +3,7 @@
 19782FF33BF23462 assets\studios.js
 1D0B7F57DF0929DB assets\previews\video.webp
 1EF388296B5D6025 assets\previews\logo.webp
+35093C9FBEF2A34B assets\app.js
 49A27BA8DE2A260D assets\mic.js
 4CF3A1775D3C1251 assets\previews.js
 60FAAD1D1BA4E9A8 assets\previews\avatar.mp4
@@ -16,7 +17,6 @@ A8D95946D15D38C0 assets\previews\voice.mp3
 AAD295BFDF2FE263 assets\previews\video.mp4
 AD39E553D005577A assets\previews\music.mp3
 B9D9740476F001F1 assets\app.css
-BC8B9B59C95AD931 assets\app.js
 C512956BAEE2F382 assets\previews\avatar.webp
 CBCAB1C1B8ED4BE9 account.html
 CFEDB01D56B5131F assets\home.js
